@@ -1,3 +1,5 @@
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
 # Vesting Schedule Calculator
 
 This application can read a file with Vesting Events and generate a cumulative Vesting Schedule up to a given date, providing a concise and easy to understand table.
@@ -49,3 +51,14 @@ It was assumed that the layout of the Vesting Events file, its extension and eve
 4. A Schedule Presenter, responsible to read the Schedule DataFrame and output it in the desired format
 
 The main class 'VestingScheduleCalculator' receives the described modules on its constructor, allowing a developer to easily switch any of them for another implementation if desirable.
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
